@@ -1,0 +1,39 @@
+{
+  "name": "modelmatch",
+  "version": "1.0.0",
+  "description": "Match model and data",
+  "main": "src/index.js",
+  "author": "Patrick Rivera",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^24.9.0",
+    "jest-junit": "^8.0.0"
+  },
+  "scripts": {
+    "build": "",
+    "test": "jest --clearCache; jest --coverage --verbose true"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json"
+    ],
+    "testRegex": "/__tests__/.*\\.test.js$",
+    "collectCoverageFrom": [
+      "**/src/*.js",
+      "!**/node_modules/**"
+    ],
+    "reporters": [
+      "default",
+      "jest-junit"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 95,
+        "functions": 95,
+        "lines": 95,
+        "statements": 95
+      }
+    }
+  }
+}
