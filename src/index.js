@@ -43,7 +43,7 @@ class Model {
     }
 }
 
-class ObjectInterface 
+class ModelInterface 
 {
     constructor(object) {
         if(typeof object === 'undefined' || typeof object == 'null') throw('CreateModel failed');
@@ -56,4 +56,4 @@ class ObjectInterface
     }
 }
 
-module.exports = ObjectInterface
+module.exports = ModelInterface

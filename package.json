@@ -1,5 +1,5 @@
 {
-  "name": "@volrathxiii/objectinterface",
+  "name": "modelinterface",
   "version": "1.0.0",
   "description": "implements interface to js",
   "main": "src/index.js",
