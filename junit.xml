@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="8" failures="0" time="1.297">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-09-07T19:34:21" time="0.693" tests="8">
+    <testcase classname=" Should create instance" name=" Should create instance" time="0.006">
+    </testcase>
+    <testcase classname=" Should not create instance" name=" Should not create instance" time="0.001">
+    </testcase>
+    <testcase classname=" Should implement an object model" name=" Should implement an object model" time="0">
+    </testcase>
+    <testcase classname=" Should implement an array model" name=" Should implement an array model" time="0">
+    </testcase>
+    <testcase classname=" Should faile implementing an invalid data" name=" Should faile implementing an invalid data" time="0">
+    </testcase>
+    <testcase classname=" Should implement an recursive array model" name=" Should implement an recursive array model" time="0.001">
+    </testcase>
+    <testcase classname=" Should implement with simple data type" name=" Should implement with simple data type" time="0">
+    </testcase>
+    <testcase classname=" Should fail with simple data type" name=" Should fail with simple data type" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
