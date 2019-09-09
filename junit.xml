@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="8" failures="0" time="1.288">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-09-07T19:48:51" time="0.675" tests="8">
-    <testcase classname=" Should create instance" name=" Should create instance" time="0.004">
+<testsuites name="jest tests" tests="8" failures="0" time="1.346">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2019-09-09T04:22:07" time="0.713" tests="8">
+    <testcase classname=" Should create instance" name=" Should create instance" time="0.005">
     </testcase>
-    <testcase classname=" Should not create instance" name=" Should not create instance" time="0">
+    <testcase classname=" Should not create instance" name=" Should not create instance" time="0.001">
     </testcase>
-    <testcase classname=" Should implement an object model" name=" Should implement an object model" time="0.001">
+    <testcase classname=" Should implement an object model" name=" Should implement an object model" time="0.004">
     </testcase>
-    <testcase classname=" Should implement an array model" name=" Should implement an array model" time="0">
+    <testcase classname=" Should implement an array model" name=" Should implement an array model" time="0.001">
     </testcase>
     <testcase classname=" Should fail implementing an invalid data" name=" Should fail implementing an invalid data" time="0">
     </testcase>
-    <testcase classname=" Should implement an recursive array model" name=" Should implement an recursive array model" time="0">
+    <testcase classname=" Should implement an recursive array model" name=" Should implement an recursive array model" time="0.001">
     </testcase>
     <testcase classname=" Should implement with simple data type" name=" Should implement with simple data type" time="0">
     </testcase>
-    <testcase classname=" Should fail with simple data type" name=" Should fail with simple data type" time="0.001">
+    <testcase classname=" Should fail with simple data type" name=" Should fail with simple data type" time="0">
     </testcase>
   </testsuite>
 </testsuites>

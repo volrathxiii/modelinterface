@@ -18,7 +18,7 @@ function IteratableValidate(model,data) {
         if(isIterable(model[key])) {
             IteratableValidate(model[key], data[key]);
         } else {
-            if(data[key].constructor !== model[key]) {
+            if(data[key].constructor.name !== model[key].name) {
                 result = false;
             }
         }
